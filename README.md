@@ -146,17 +146,6 @@ Code	      Result
 \f	         Form Feed
 ```
 
-![Datatpyes](.../Main/img/datatype1.png)
-![Datatpyes](.../Main/img/datatype2.png)
-![Datatpyes](.../Main/img/app.png)
-
-
-![Datatpyes](.../Main/img/BST/key1.png)
-![Datatpyes](.../Main/img/BST/key2.png)
-![Datatpyes](.../Main/img/BST/key3.png)
-![Datatpyes](.../Main/img/BST/key4.png)
-![Datatpyes](.../Main/img/BST/key5.png)
-
 ## Java finns överallt så du kan välja vad du ska göra
 
 Vad används Java till? Den används till allt!
@@ -208,7 +197,7 @@ Vår == Spring
 Fjäder MVC == Spring MVC
 Fjäderkänga == Spring boot
 
-## 2 Lär dig Android
+## Lär dig Android
 mobilutveckling
 
 ## Customer Relationship Management (CRM) is a strategy that companies use to manage interactions with customers and potential customers
