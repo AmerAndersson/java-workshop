@@ -1,4 +1,4 @@
-## Getting Started
+# Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
@@ -17,7 +17,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-# Data types
+## Data Types
 
 ```java
 
@@ -70,12 +70,12 @@ boolean 1 bit Stores true or false values
 ## In Java, there are two types of casting
 
 1. `Widening Casting (automatically)` - converting a smaller type to a larger type size
-   ` byte -> short -> char -> int -> long -> float -> double`
+   `byte -> short -> char -> int -> long -> float -> double`
 
 2. `Narrowing Casting (manually)` - converting a larger type to a smaller size type
    `double -> float -> long -> int -> char -> short -> byte`
 
-## Java divides the operators into the following groups:
+## Java divides the operators into the following groups
 
 - Arithmetic operators
 - Assignment operators
@@ -85,43 +85,43 @@ boolean 1 bit Stores true or false values
 
 ```java
 -----------------------------------------------------------------
-Operator	Name	        Description	                Example
+Operator Name         Description                 Example
 -----------------------------------------------------------------
-+	      Addition	      Adds together two values	          x + y
--	      Subtraction	    Subtracts one value from another	  x - y
-*	      Multiplication	Multiplies two values	              x * y
-/	      Division	      Divides one value by another	      x / y
-%	      Modulus	        Returns the division remainder	    x % y
-++	    Increment	      Increases the value of a variable by 1	++x
---	    Decrement	      Decreases the value of a variable by 1	--x
++       Addition       Adds together two values           x + y
+-       Subtraction     Subtracts one value from another   x - y
+*       Multiplication Multiplies two values               x * y
+/       Division       Divides one value by another       x / y
+%       Modulus         Returns the division remainder     x % y
+++     Increment       Increases the value of a variable by 1 ++x
+--     Decrement       Decreases the value of a variable by 1 --x
 
 --------------------------------------------------------
-Operator	              Example	              Same As
+Operator               Example               Same As
 --------------------------------------------------------
-=	                      x = 5	                x = 5
-+=	                    x += 3	              x = x + 3
--=	                    x -= 3	              x = x - 3
-*=	                    x *= 3	              x = x * 3
-/=	                    x /= 3	              x = x / 3
-%=	                    x %= 3	              x = x % 3
-&=	                    x &= 3	              x = x & 3
-|=	                    x |= 3	              x = x | 3
-^=	                    x ^= 3	              x = x ^ 3
->>=	                    x >>= 3              	x = x >> 3
-<<=	                    x <<= 3              	x = x << 3
+=                       x = 5                 x = 5
++=                     x += 3               x = x + 3
+-=                     x -= 3               x = x - 3
+*=                     x *= 3               x = x * 3
+/=                     x /= 3               x = x / 3
+%=                     x %= 3               x = x % 3
+&=                     x &= 3               x = x & 3
+|=                     x |= 3               x = x | 3
+^=                     x ^= 3               x = x ^ 3
+>>=                     x >>= 3               x = x >> 3
+<<=                     x <<= 3               x = x << 3
 ---------------------------------------------------------
 
 The return value of a comparison is either `true or false`. These values are known as Boolean values:
 
 ----------------------------------------------------
-Operator	        Name	                   Example
+Operator         Name                    Example
 ----------------------------------------------------
-==	            Equal to	                  x == y
-!=	            Not equal	                  x != y
->	              Greater than	              x > y
-<	              Less than	                  x < y
->=	            Greater than or equal to	  x >= y
-<=	            Less than or equal to	    x <= y
+==             Equal to                   x == y
+!=             Not equal                   x != y
+>               Greater than               x > y
+<               Less than                   x < y
+>=             Greater than or equal to   x >= y
+<=             Less than or equal to     x <= y
 ---------------------------------------------------
 
 
@@ -131,26 +131,37 @@ Java Logical Operators
 You can also test for true or false values with logical operators.
 Logical operators are used to determine the logic between variables or values
 --------------------------------------------------------------------------------------------------------------
-Operator	      Name	                Description	                                                Example
+Operator       Name                 Description                                                 Example
 --------------------------------------------------------------------------------------------------------------
-&& 	          Logical and	        Returns true if both statements are true	                x < 5 &&  x < 10
-|| 	          Logical or	        Returns true if one of the statements is true	            x < 5 || x < 4
-!	            Logical not	        Reverse the result, returns false if the result is true	  !(x < 5 && x < 10)
+&&            Logical and         Returns true if both statements are true                 x < 5 &&  x < 10
+||            Logical or         Returns true if one of the statements is true             x < 5 || x < 4
+!             Logical not         Reverse the result, returns false if the result is true   !(x < 5 && x < 10)
 ---------------------------------------------------------------------------------------------------------------
 
-Code	      Result
-\n	         New Line
-\r	         Carriage Return
-\t	         Tab
-\b	         Backspace
-\f	         Form Feed
+Code       Result
+\n          New Line
+\r          Carriage Return
+\t          Tab
+\b          Backspace
+\f          Form Feed
 ```
+
+![Datatpyes](../Main/img/datatype1.png)
+![Datatpyes](../Main/img/datatype2.png)
+![Datatpyes](../Main/img/app.png)
+
+![Datatpyes](../Main/img/BST/key1.png)
+![Datatpyes](../Main/img/BST/key2.png)
+![Datatpyes](../Main/img/BST/key3.png)
+![Datatpyes](../Main/img/BST/key4.png)
+![Datatpyes](../Main/img/BST/key5.png)
 
 ## Java finns överallt så du kan välja vad du ska göra
 
 Vad används Java till? Den används till allt!
-Java finns nästan överallt och här är en kort lista: 
+Java finns nästan överallt och här är en kort lista:
 Java och JVM har en ljus framtid
+
 - Big Enterprise-appar på serversidan
 - Android-applikationer
 - Olika webb- och skrivbordsapplikationer
@@ -160,7 +171,9 @@ Java och JVM har en ljus framtid
 - AI, maskininlärning
 
 ## Sätt av Java-utvecklare
+
 ## #1 Lär dig att koda från noll
+
 Grundläggande Java-konstruktioner, operatorer och datatyper
 OOP och dess implementering i Java
 Undantag
@@ -176,29 +189,35 @@ SQL
 
 Backendlösningar med Java som programspråk genom de ramverk och serverlösningar som finns tillgängliga. De studerande ska i denna kurs få eninblick i utveckling av Enterprise software samt kunna använda sig av de viktigaste delarna av Java EE.
 Utveckling av backend i Java samt ha kompetensen att integrera backendsystem med varandra
-  - multi-tier architecture
-  - MicroServices.
-  - Affärsmannaskap == Entrepreneurship
-  - (deployas) till olika testmiljöer.
-  - testautomatisering samt versionshantering.
+
+- multi-tier architecture
+- MicroServices.
+- Affärsmannaskap == Entrepreneurship
+- (deployas) till olika testmiljöer.
+- testautomatisering samt versionshantering.
+
 ---
 
-Javautvecklare
-Programutvecklare Java
-Applikationsprogrammerare Java
-Webbprogrammerare Java
-Systemutvecklare
+- Javautvecklare
+- Programutvecklare Java
+- Applikationsprogrammerare Java
+- Webbprogrammerare Java
+- Systemutvecklare
+
 ---
 
 ## Junior Java Developer-krav
+
  Spring, Hibernate och Spring Boot.
 Vår == Spring
 Övervintra == Hibernate
 Fjäder MVC == Spring MVC
 Fjäderkänga == Spring boot
 
-## Lär dig Android
+## #2 Lär dig Android
+
 mobilutveckling
 
 ## Customer Relationship Management (CRM) is a strategy that companies use to manage interactions with customers and potential customers
-## ERP stands for enterprise resource planning – which is a type of business management software.
+
+## ERP stands for enterprise resource planning – which is a type of business management software

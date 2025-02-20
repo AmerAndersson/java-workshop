@@ -1,9 +1,9 @@
 
 /**
  * 
- * Learning JAVA 
+ * Learning JAVA
  * @Author Amer Andersson 
- * @version 0.0.1
+ * From Sweden
  * 
  */
 
